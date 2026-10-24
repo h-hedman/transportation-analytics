@@ -40,3 +40,7 @@ The National Census of Ferry Operators (NCFO) is the only federally maintained, 
 2. Peck, H. S. *Ship to Shore: Integrating New York Harbor Ferries with Upland Communities.* TRB Annual Meeting Paper No. 16-3006, 2016.
 3. Avery, R. P., Allahyar, A., Shelton, D., Dehghani, Y., Baker, T. B., & Deardorf, R. G. *An Analysis of Changing Demographics on the Washington State Ferry System.* TRB Annual Meeting Paper No. 15-5194, 2015.
 4. Brooks, M. R., Brotemarkle, S., Comstock, E., & Kruse, J. *Innovations on the Horizon: Research Needs for the Marine Transportation System of the Future.* TR News, No. 334, 2021.
+
+## Running from the consolidated repository
+
+Use transportation-analytics/ncfo-ferry-capacity-analysis as the working directory. The public snapshot does not include the raw survey inputs. The R compilation script retains legacy input/output paths that must be configured before execution. The Python analysis accepts --root for an explicit project directory. This organization change preserves the published analysis; it does not make the full data pipeline self-contained.
